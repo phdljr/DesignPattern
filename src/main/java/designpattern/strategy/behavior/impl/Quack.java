@@ -1,6 +1,6 @@
-package design_pattern.strategy.behavior.impl;
+package designpattern.strategy.behavior.impl;
 
-import design_pattern.strategy.behavior.QuackBehavior;
+import designpattern.strategy.behavior.QuackBehavior;
 
 public class Quack implements QuackBehavior {
     @Override
