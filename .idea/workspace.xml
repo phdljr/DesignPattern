@@ -5,26 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b10c36a-373d-44f4-a5e4-44fb18f3a1a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/observer/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/observer/WeatherStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/observer/display/CurrentConditionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/observer/display/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/observer/display/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/observer/display/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/strategy/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/MiniDuckSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/strategy/behavior/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/FlyBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/strategy/behavior/QuackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/QuackBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/strategy/behavior/impl/FlyNoway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/impl/FlyNoway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/strategy/behavior/impl/FlyRocketPowered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/impl/FlyRocketPowered.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/strategy/behavior/impl/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/impl/FlyWithWings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/strategy/behavior/impl/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/impl/Quack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/strategy/duck/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/duck/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/strategy/duck/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/duck/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design_pattern/strategy/duck/ModelDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/duck/ModelDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StarbuzzCoffee.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/decorator/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/decorator/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/decorator/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/DarkRoast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/decorator/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/decorator/StarbuzzCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/StarbuzzCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/decorator/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/Whip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/observer/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/observer/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/observer/display/CurrentConditionDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/display/CurrentConditionDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/observer/display/DisplayElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/display/DisplayElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/observer/display/ForecastDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/display/ForecastDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/observer/display/StatisticsDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/display/StatisticsDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/MiniDuckSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/FlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/QuackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/QuackBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/impl/FlyNoway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/impl/FlyNoway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/impl/FlyRocketPowered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/impl/FlyRocketPowered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/impl/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/impl/FlyWithWings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/behavior/impl/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/impl/Quack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/duck/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/duck/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/duck/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/duck/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/strategy/duck/ModelDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/duck/ModelDuck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,11 +99,11 @@
       </method>
     </configuration>
     <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.observer.WeatherStation" />
+      <option name="MAIN_CLASS_NAME" value="hf.dp.observer.WeatherStation" />
       <module name="DesignPattern.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.observer.*" />
+          <option name="PATTERN" value="hf.dp.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,5 +146,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
 </project>
