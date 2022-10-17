@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b10c36a-373d-44f4-a5e4-44fb18f3a1a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/StarbuzzCoffee.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/observer/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/observer/WeatherData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="design_pattern.strategy.behavior" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\DesignPattern\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="design_pattern" />
@@ -104,7 +107,8 @@
       <workItem from="1663556123161" duration="859000" />
       <workItem from="1664437548719" duration="2086000" />
       <workItem from="1665039591044" duration="2051000" />
-      <workItem from="1665645019821" duration="6236000" />
+      <workItem from="1665645019821" duration="6926000" />
+      <workItem from="1665976225109" duration="974000" />
     </task>
     <servers />
   </component>
