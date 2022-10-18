@@ -1,30 +1,33 @@
 package hf.dp.observer.observer;
 
-import hf.dp.observer.subject.Subject;
-
-import java.util.Random;
+import hf.dp.observer.subject.WeatherData;
 
 public class ForecastDisplay implements Observer, DisplayElement {
+    private float currentPressure = 29.92f;
+    private float lastPressure;
+    private WeatherData weatherData;
 
-    private Subject weatherData;
-    private String[] msg = new String[3];
-    private Random random = new Random();
-
-    public ForecastDisplay(Subject weatherData) {
+    public ForecastDisplay(WeatherData weatherData) {
         this.weatherData = weatherData;
-        msg[0] = "Improving weather on the way!";
-        msg[1] = "Watch out for cooler, rainy weather.";
-        msg[2] = "More of the same.";
         weatherData.registerObserver(this);
     }
 
-    @Override
     public void update(float temp, float humidity, float pressure) {
+        lastPressure = currentPressure;
+        currentPressure = pressure;
+
         display();
     }
 
-    @Override
     public void display() {
-        System.out.printf("Forecast: %s\n", msg[random.nextInt(3)]);
+        System.out.print("Forecast: ");
+        if (currentPressure > lastPressure) {
+            System.out.println("Improving weather on the way!");
+        } else if (currentPressure == lastPressure) {
+            System.out.println("More of the same");
+        } else if (currentPressure < lastPressure) {
+            System.out.println("Watch out for cooler, rainy weather");
+        }
     }
 }
+

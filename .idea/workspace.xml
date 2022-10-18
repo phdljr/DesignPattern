@@ -4,40 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b10c36a-373d-44f4-a5e4-44fb18f3a1a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/stragegy/quack/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/stragegy/quack/Squeak.java" afterDir="false" />
+    <list default="true" id="7b10c36a-373d-44f4-a5e4-44fb18f3a1a9" name="Changes" comment="push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/observer/DigitObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/observer/observer/DigitObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/observer/GraphObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/observer/observer/GraphObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/observer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/observer/NumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/observer/subject/NumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/observer/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/observer/RandomNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/observer/subject/RandomNumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/strategy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/strategy/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/strategy/context/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/strategy/ProbStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/strategy/strategy/ProbStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/strategy/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/strategy/strategy/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/strategy/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/strategy/strategy/WinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/subject/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/subject/WeatherData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/WeatherStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/display/CurrentConditionDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/CurrentConditionDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/display/DisplayElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/DisplayElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/display/ForecastDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/ForecastDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/display/StatisticsDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/StatisticsDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/MiniDuckSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/stragegy/fly/FlyBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/QuackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/stragegy/quack/QuackBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/impl/FlyNoway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/stragegy/fly/FlyNoway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/impl/FlyRocketPowered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/stragegy/fly/FlyRocketPowered.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/impl/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/stragegy/fly/FlyWithWings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/behavior/impl/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/stragegy/quack/Quack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/duck/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/context/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/duck/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/context/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/duck/ModelDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/strategy/context/ModelDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/ForecastDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/ForecastDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +46,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "aspect.path.notification.shown": "true",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "spring.configuration.checksum": "e667f0c42e1c859e6be5586d8b7d6b5a"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,7 +70,7 @@
       <recent name="design_pattern.strategy.behavior" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.add.dp.strategy.Main">
+  <component name="RunManager" selected="Application.WeatherStation">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="add.dp.observer.Main" />
       <module name="DesignPattern.main" />
@@ -168,10 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.add.dp.strategy.Main" />
         <item itemvalue="Application.hf.dp.strategy.MiniDuckSimulator" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.MiniDuckSimulator" />
       </list>
     </recent_temporary>
@@ -188,6 +159,7 @@
       <workItem from="1664437548719" duration="2086000" />
       <workItem from="1665039591044" duration="2051000" />
       <workItem from="1665645019821" duration="3841000" />
+      <workItem from="1666120257105" duration="23000" />
     </task>
     <servers />
   </component>
