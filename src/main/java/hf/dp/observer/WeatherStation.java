@@ -1,11 +1,15 @@
 package hf.dp.observer;
 
-import hf.dp.observer.display.CurrentConditionDisplay;
-import hf.dp.observer.display.ForecastDisplay;
-import hf.dp.observer.display.StatisticsDisplay;
+import hf.dp.observer.observer.CurrentConditionDisplay;
+import hf.dp.observer.observer.ForecastDisplay;
+import hf.dp.observer.observer.StatisticsDisplay;
+import hf.dp.observer.subject.WeatherData;
+import info.MyHWInfo;
 
 public class WeatherStation {
     public static void main(String[] args) {
+        MyHWInfo.printInfo();
+
         WeatherData weatherData = new WeatherData();
 
         CurrentConditionDisplay currentDisplay = new CurrentConditionDisplay(weatherData);
@@ -14,6 +18,6 @@ public class WeatherStation {
 
         weatherData.setMeasurements(80, 65, 30.4f);
         weatherData.setMeasurements(82, 70, 29.2f);
-        weatherData.setMeasurements(78, 90, 30.4f);
+        weatherData.setMeasurements(78, 90, 29.2f);
     }
 }
