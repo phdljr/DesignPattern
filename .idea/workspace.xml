@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7b10c36a-373d-44f4-a5e4-44fb18f3a1a9" name="Changes" comment="push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/ForecastDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/ForecastDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/observer/subject/RandomNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/observer/subject/RandomNumberGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/CurrentConditionDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/CurrentConditionDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "aspect.path.notification.shown": "true",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.import",
-    "spring.configuration.checksum": "e667f0c42e1c859e6be5586d8b7d6b5a"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e667f0c42e1c859e6be5586d8b7d6b5a&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="design_pattern.strategy.behavior" />
@@ -70,7 +71,7 @@
       <recent name="design_pattern.strategy.behavior" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherStation">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="add.dp.observer.Main" />
       <module name="DesignPattern.main" />
@@ -139,10 +140,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.add.dp.strategy.Main" />
         <item itemvalue="Application.hf.dp.strategy.MiniDuckSimulator" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MiniDuckSimulator" />
       </list>
     </recent_temporary>
@@ -159,7 +160,8 @@
       <workItem from="1664437548719" duration="2086000" />
       <workItem from="1665039591044" duration="2051000" />
       <workItem from="1665645019821" duration="3841000" />
-      <workItem from="1666120257105" duration="23000" />
+      <workItem from="1666120257105" duration="244000" />
+      <workItem from="1666167975711" duration="4368000" />
     </task>
     <servers />
   </component>
