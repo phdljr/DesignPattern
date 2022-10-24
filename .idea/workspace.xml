@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7b10c36a-373d-44f4-a5e4-44fb18f3a1a9" name="Changes" comment="">
+=======
+    <list default="true" id="7b10c36a-373d-44f4-a5e4-44fb18f3a1a9" name="Changes" comment="push">
+>>>>>>> 9d49906785db240afb7d5e77abd9a322301d1939
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/observer/subject/RandomNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/observer/subject/RandomNumberGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/CurrentConditionDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/CurrentConditionDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -39,12 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/JavaProjects/TobysSpring/build.gradle",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e667f0c42e1c859e6be5586d8b7d6b5a&quot;
+>>>>>>> 9d49906785db240afb7d5e77abd9a322301d1939
   }
 }]]></component>
   <component name="RecentsManager">
@@ -52,17 +71,33 @@
       <recent name="design_pattern.strategy.behavior" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaProjects\DesignPattern\src\main\java" />
+      <recent name="C:\JavaProjects\DesignPattern\src\main\java\add\dp\observer" />
+      <recent name="C:\JavaProjects\DesignPattern\src\main\java\add\dp\strategy" />
+      <recent name="C:\JavaProjects\DesignPattern\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="design_pattern" />
       <recent name="design_pattern.strategy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hf.dp.strategy.stragegy.impl" />
       <recent name="design_pattern.strategy.behavior" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherStation">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="add.dp.observer.Main" />
+      <module name="DesignPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="add.dp.observer.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design_pattern.strategy.MiniDuckSimulator" />
       <module name="DesignPattern.main" />
@@ -77,11 +112,38 @@
       </method>
     </configuration>
     <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.observer.WeatherStation" />
+      <option name="MAIN_CLASS_NAME" value="hf.dp.observer.WeatherStation" />
       <module name="DesignPattern.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.observer.*" />
+          <option name="PATTERN" value="hf.dp.observer.subject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="add.dp.strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="add.dp.strategy.Main" />
+      <module name="DesignPattern.main" />
+      <option name="PROGRAM_PARAMETERS" value="111 222" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="add.dp.strategy.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hf.dp.strategy.MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hf.dp.strategy.MiniDuckSimulator" />
+      <module name="DesignPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hf.dp.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +153,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.WeatherStation" />
+        <item itemvalue="Application.add.dp.strategy.Main" />
+        <item itemvalue="Application.hf.dp.strategy.MiniDuckSimulator" />
         <item itemvalue="Application.MiniDuckSimulator" />
       </list>
     </recent_temporary>
@@ -107,9 +172,15 @@
       <workItem from="1663556123161" duration="859000" />
       <workItem from="1664437548719" duration="2086000" />
       <workItem from="1665039591044" duration="2051000" />
+<<<<<<< HEAD
       <workItem from="1665645019821" duration="6926000" />
       <workItem from="1665976225109" duration="1611000" />
       <workItem from="1666092311648" duration="50000" />
+=======
+      <workItem from="1665645019821" duration="3841000" />
+      <workItem from="1666120257105" duration="244000" />
+      <workItem from="1666167975711" duration="4368000" />
+>>>>>>> 9d49906785db240afb7d5e77abd9a322301d1939
     </task>
     <servers />
   </component>
@@ -126,5 +197,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
