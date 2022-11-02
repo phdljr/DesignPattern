@@ -1,6 +1,7 @@
 package hf.dp.factory.factorymethod.creator;
 
 import hf.dp.factory.factorymethod.product.ChicagoStyleCheesePizza;
+import hf.dp.factory.factorymethod.product.ChicagoStyleVeggiePizza;
 import hf.dp.factory.factorymethod.product.Pizza;
 
 public class ChicagoPizzaStore extends PizzaStore{
@@ -10,7 +11,7 @@ public class ChicagoPizzaStore extends PizzaStore{
         if(type.equals("cheese"))
             pizza = new ChicagoStyleCheesePizza();
         else if(type.equals("veggie"))
-            pizza = new ChicagoStyleCheesePizza();
+            pizza = new ChicagoStyleVeggiePizza();
         else
             throw  new IllegalArgumentException("No Pizza");
 

@@ -1,9 +1,6 @@
 package hf.dp.factory.abstractfactory.product;
 
-import hf.dp.factory.abstractfactory.product.ingredient.Cheese;
-import hf.dp.factory.abstractfactory.product.ingredient.Dough;
-import hf.dp.factory.abstractfactory.product.ingredient.Sauce;
-import hf.dp.factory.abstractfactory.product.ingredient.Veggies;
+import hf.dp.factory.abstractfactory.product.ingredient.*;
 
 import java.util.ArrayList;
 
@@ -13,6 +10,8 @@ public abstract class Pizza {
     Sauce sauce;
     Veggies[] veggies;
     Cheese cheese;
+    Clams clams;
+    Pepperoni pepperoni;
 
     abstract public void prepare();
 
