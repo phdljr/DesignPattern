@@ -1,4 +1,4 @@
-package hf.dp.factory;
+package hf.dp.factory.factorymethod.product;
 
 public class NYStyleCheesePizza extends Pizza{
     public NYStyleCheesePizza() {

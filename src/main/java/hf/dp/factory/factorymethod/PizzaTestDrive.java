@@ -1,4 +1,9 @@
-package hf.dp.factory;
+package hf.dp.factory.factorymethod;
+
+import hf.dp.factory.factorymethod.creator.ChicagoPizzaStore;
+import hf.dp.factory.factorymethod.creator.NYPizzaStore;
+import hf.dp.factory.factorymethod.creator.PizzaStore;
+import hf.dp.factory.factorymethod.product.Pizza;
 
 public class PizzaTestDrive {
     public static void main(String[] args) {

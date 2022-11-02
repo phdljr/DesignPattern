@@ -1,4 +1,6 @@
-package hf.dp.factory;
+package hf.dp.factory.factorymethod.creator;
+
+import hf.dp.factory.factorymethod.product.Pizza;
 
 public abstract class PizzaStore {
     public Pizza orderPizza(String type){

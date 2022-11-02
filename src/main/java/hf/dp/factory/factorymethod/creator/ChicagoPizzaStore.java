@@ -1,4 +1,7 @@
-package hf.dp.factory;
+package hf.dp.factory.factorymethod.creator;
+
+import hf.dp.factory.factorymethod.product.ChicagoStyleCheesePizza;
+import hf.dp.factory.factorymethod.product.Pizza;
 
 public class ChicagoPizzaStore extends PizzaStore{
     @Override
