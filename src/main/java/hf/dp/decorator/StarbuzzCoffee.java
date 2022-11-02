@@ -7,9 +7,12 @@ import hf.dp.decorator.component.HouseBlend;
 import hf.dp.decorator.decorator.Mocha;
 import hf.dp.decorator.decorator.Soy;
 import hf.dp.decorator.decorator.Whip;
+import info.MyHWInfo;
 
 public class StarbuzzCoffee {
     public static void main(String[] args) {
+        MyHWInfo.printInfo();
+
         Beverage beverage = new Espresso();
         System.out.println(beverage.getDescription() + " $" + beverage.cost());
 

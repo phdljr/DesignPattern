@@ -1,9 +1,9 @@
-package hf.dp.factory.factorymethod;
+package hf.dp.factory.abstractfactory;
 
-import hf.dp.factory.factorymethod.creator.ChicagoPizzaStore;
-import hf.dp.factory.factorymethod.creator.NYPizzaStore;
-import hf.dp.factory.factorymethod.creator.PizzaStore;
-import hf.dp.factory.factorymethod.product.Pizza;
+import hf.dp.factory.abstractfactory.factory.ChicagoPizzaStore;
+import hf.dp.factory.abstractfactory.factory.NYPizzaStore;
+import hf.dp.factory.abstractfactory.factory.PizzaStore;
+import hf.dp.factory.abstractfactory.product.Pizza;
 import info.MyHWInfo;
 
 public class PizzaTestDrive {

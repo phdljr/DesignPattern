@@ -1,0 +1,5 @@
+package hf.dp.factory.abstractfactory.product.ingredient;
+
+public interface Cheese {
+    String toString();
+}
