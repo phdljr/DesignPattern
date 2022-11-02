@@ -1,4 +1,6 @@
-package hf.dp.decorator;
+package hf.dp.decorator.decorator;
+
+import hf.dp.decorator.component.Beverage;
 
 public class Whip extends CondimentDecorator{
     public Whip(Beverage beverage){

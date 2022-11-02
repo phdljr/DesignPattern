@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b10c36a-373d-44f4-a5e4-44fb18f3a1a9" name="Changes" comment="push">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/component/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/component/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/decorator/Soy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/observer/subject/RandomNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/observer/subject/RandomNumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/CurrentConditionDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/CurrentConditionDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/component/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/decorator/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/component/DarkRoast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/decorator/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/StarbuzzCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/StarbuzzCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/decorator/decorator/Whip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +55,7 @@
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaProjects/TobysSpring/build.gradle&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;e667f0c42e1c859e6be5586d8b7d6b5a&quot;
@@ -67,11 +75,13 @@
       <recent name="design_pattern.strategy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hf.dp.decorator.decorator" />
+      <recent name="hf.dp.decorator.component" />
       <recent name="hf.dp.strategy.stragegy.impl" />
       <recent name="design_pattern.strategy.behavior" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.StarbuzzCoffee">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="add.dp.observer.Main" />
       <module name="DesignPattern.main" />
@@ -85,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_pattern.strategy.MiniDuckSimulator" />
+    <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hf.dp.decorator.StarbuzzCoffee" />
       <module name="DesignPattern.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_pattern.strategy.*" />
+          <option name="PATTERN" value="hf.dp.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.add.dp.strategy.Main" />
         <item itemvalue="Application.hf.dp.strategy.MiniDuckSimulator" />
-        <item itemvalue="Application.MiniDuckSimulator" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +171,9 @@
       <workItem from="1665039591044" duration="2051000" />
       <workItem from="1665645019821" duration="3841000" />
       <workItem from="1666120257105" duration="244000" />
-      <workItem from="1666167975711" duration="4368000" />
+      <workItem from="1666167975711" duration="5401000" />
+      <workItem from="1666177818238" duration="123000" />
+      <workItem from="1667394757038" duration="1704000" />
     </task>
     <servers />
   </component>

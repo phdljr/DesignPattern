@@ -1,6 +1,8 @@
-package hf.dp.decorator;
+package hf.dp.decorator.decorator;
 
-public class Mocha extends CondimentDecorator{
+import hf.dp.decorator.component.Beverage;
+
+public class Mocha extends CondimentDecorator {
     public Mocha(Beverage beverage){
         this.beverage = beverage;
     }
