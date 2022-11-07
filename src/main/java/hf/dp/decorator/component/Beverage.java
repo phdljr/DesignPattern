@@ -1,4 +1,4 @@
-package hf.dp.decorator;
+package hf.dp.decorator.component;
 
 public abstract class Beverage{
     protected String description = "Unknown Beverage";

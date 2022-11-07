@@ -1,4 +1,4 @@
-package hf.dp.decorator;
+package hf.dp.decorator.component;
 
 public class DarkRoast extends Beverage {
     public DarkRoast(){

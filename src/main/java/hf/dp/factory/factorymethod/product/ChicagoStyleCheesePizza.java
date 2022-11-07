@@ -1,4 +1,4 @@
-package hf.dp.factory;
+package hf.dp.factory.factorymethod.product;
 
 public class ChicagoStyleCheesePizza extends Pizza{
     public ChicagoStyleCheesePizza() {
@@ -9,7 +9,7 @@ public class ChicagoStyleCheesePizza extends Pizza{
     }
 
     @Override
-    void cut() {
+    public void cut() {
         System.out.println("Cutting the pizza into square slices.");
     }
 }
