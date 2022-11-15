@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b10c36a-373d-44f4-a5e4-44fb18f3a1a9" name="Changes" comment="">
+    <list default="true" id="49e6529c-a8e2-435e-bf38-487148a06f45" name="Changes" comment="push">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/singleton/ChocolateBoiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/singleton/ChocolateController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/add/dp/observer/subject/RandomNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/add/dp/observer/subject/RandomNumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/CurrentConditionDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hf/dp/observer/observer/CurrentConditionDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,20 @@
       <recent name="design_pattern.strategy.behavior" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PizzaTestDrive">
+  <component name="RunManager" selected="Application.ChocolateController">
+    <configuration name="ChocolateController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hf.dp.singleton.ChocolateController" />
+      <module name="DesignPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hf.dp.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="add.dp.observer.Main" />
       <module name="DesignPattern.main" />
@@ -124,26 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hf.dp.strategy.MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hf.dp.strategy.MiniDuckSimulator" />
-      <module name="DesignPattern.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hf.dp.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChocolateController" />
         <item itemvalue="Application.PizzaTestDrive" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.add.dp.strategy.Main" />
-        <item itemvalue="Application.hf.dp.strategy.MiniDuckSimulator" />
       </list>
     </recent_temporary>
   </component>
