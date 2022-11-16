@@ -1,7 +1,11 @@
 package hf.dp.singleton;
 
+import info.MyHWInfo;
+
 public class ChocolateController {
     public static void main(String args[]) {
+        MyHWInfo.printInfo();
+
         ChocolateBoiler boiler = ChocolateBoiler.getInstance();
         ChocolateBoiler boiler2 = ChocolateBoiler.getInstance();
 

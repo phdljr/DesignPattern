@@ -1,6 +1,8 @@
-package hf.dp.command;
+package hf.dp.command.command;
 
-public class AlarmOnCommand implements Command{
+import hf.dp.command.reveiver.Alarm;
+
+public class AlarmOnCommand implements Command {
     private Alarm alarm;
 
     public AlarmOnCommand(Alarm alarm) {
