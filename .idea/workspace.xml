@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49e6529c-a8e2-435e-bf38-487148a06f45" name="Changes" comment="push">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/singleton/ChocolateBoiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/singleton/ChocolateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/BeverageTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/CaffeinBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/CoffeeWithHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/TeaWithHook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,6 +169,14 @@
       <workItem from="1667181697545" duration="1297000" />
       <workItem from="1667297049653" duration="91000" />
     </task>
+    <task id="LOCAL-00001" summary="push">
+      <created>1669605760431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669605760431</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
