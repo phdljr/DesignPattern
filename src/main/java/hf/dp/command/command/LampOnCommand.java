@@ -1,6 +1,8 @@
-package hf.dp.command;
+package hf.dp.command.command;
 
-public class LampOnCommand implements Command{
+import hf.dp.command.reveiver.Lamp;
+
+public class LampOnCommand implements Command {
     private Lamp lamp;
 
     public LampOnCommand(Lamp lamp) {

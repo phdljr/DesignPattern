@@ -1,4 +1,4 @@
-package hf.dp.command;
+package hf.dp.command.reveiver;
 
 public class Alarm {
     public void start(){

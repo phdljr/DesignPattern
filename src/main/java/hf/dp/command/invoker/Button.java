@@ -1,4 +1,6 @@
-package hf.dp.command;
+package hf.dp.command.invoker;
+
+import hf.dp.command.command.Command;
 
 public class Button {
     private Command command;
