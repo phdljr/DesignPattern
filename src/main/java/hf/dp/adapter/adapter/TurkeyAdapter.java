@@ -1,4 +1,9 @@
-public class TurkeyAdapter implements Duck{
+package hf.dp.adapter.adapter;
+
+import hf.dp.adapter.Duck;
+import hf.dp.adapter.adaptee.Turkey;
+
+public class TurkeyAdapter implements Duck {
     Turkey turkey;
 
     public TurkeyAdapter(Turkey turkey) {

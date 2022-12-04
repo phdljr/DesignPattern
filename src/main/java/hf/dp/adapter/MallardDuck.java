@@ -1,4 +1,6 @@
-public class MallardDuck implements Duck{
+package hf.dp.adapter;
+
+public class MallardDuck implements Duck {
     @Override
     public void quack() {
         System.out.println("Quack");

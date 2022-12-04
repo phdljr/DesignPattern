@@ -1,4 +1,8 @@
-public class WildTurkey implements Turkey{
+package hf.dp.adapter.adaptee;
+
+import hf.dp.adapter.adaptee.Turkey;
+
+public class WildTurkey implements Turkey {
     @Override
     public void gobble() {
         System.out.println("Gobble Gobble");
