@@ -6,3 +6,8 @@
   - Factory Method Pattern
   - Abstract Factory Pattern
 - Singleton Pattern
+- Command Pattern
+- Adapter Pattern
+- Facade Pattern
+- Template Method Pattern
+- Iterator Pattern
