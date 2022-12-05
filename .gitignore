@@ -3,6 +3,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+.idea/
 
 ### IntelliJ IDEA ###
 # Created by https://www.toptal.com/developers/gitignore/api/intellij

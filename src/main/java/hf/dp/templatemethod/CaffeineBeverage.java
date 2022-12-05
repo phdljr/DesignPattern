@@ -1,6 +1,6 @@
 package hf.dp.templatemethod;
 
-public abstract class CaffeinBeverage {
+public abstract class CaffeineBeverage {
     final void prepareRecipe(){
         boilwater();
         brew();
@@ -13,15 +13,15 @@ public abstract class CaffeinBeverage {
     abstract public void brew();
     abstract public void addCondiments();
 
-    public  boolean customerWantsCondiments() {
+    public boolean customerWantsCondiments() {
         return true;
-    }
-
-    private void pourInCup() {
-        System.out.println("Pouring into cup");
     }
 
     private void boilwater() {
         System.out.println("Boiling water");
+    }
+
+    private void pourInCup() {
+        System.out.println("Pouring into cup");
     }
 }

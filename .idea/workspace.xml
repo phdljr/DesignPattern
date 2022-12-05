@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49e6529c-a8e2-435e-bf38-487148a06f45" name="Changes" comment="push">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/BeverageTestDrive.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/CaffeinBeverage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/Coffee.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/CoffeeWithHook.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/Tea.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hf/dp/templatemethod/TeaWithHook.java" afterDir="false" />
+>>>>>>> 56c0f3d5ed3f35d8bdb3c0876ae676a6385b1946
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +57,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
+=======
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+>>>>>>> cb646cabe89ca649010ae6dca6427a90f3b19376
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/JavaProjects/DesignPattern",
     "nodejs_package_manager_path": "npm",
@@ -74,13 +86,30 @@
       <recent name="design_pattern.strategy.behavior" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.MenuTestDrive">
+=======
+  <component name="RunManager" selected="Application.Client">
+>>>>>>> cb646cabe89ca649010ae6dca6427a90f3b19376
     <configuration name="ChocolateController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hf.dp.singleton.ChocolateController" />
       <module name="DesignPattern.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hf.dp.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hf.dp.command.Client" />
+      <module name="DesignPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hf.dp.command.reveiver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,7 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.MenuTestDrive" />
+=======
+        <item itemvalue="Application.Client" />
+>>>>>>> cb646cabe89ca649010ae6dca6427a90f3b19376
         <item itemvalue="Application.ChocolateController" />
         <item itemvalue="Application.PizzaTestDrive" />
         <item itemvalue="Application.Main" />
@@ -167,16 +200,40 @@
       <workItem from="1666854661233" duration="625000" />
       <workItem from="1667181697545" duration="1297000" />
       <workItem from="1667297049653" duration="91000" />
+<<<<<<< HEAD
       <workItem from="1669806253001" duration="30000" />
       <workItem from="1669882593595" duration="1624000" />
+=======
+      <workItem from="1668598747058" duration="6000" />
+      <workItem from="1668598971517" duration="3509000" />
+      <workItem from="1668685984534" duration="25000" />
+      <workItem from="1670132263963" duration="41000" />
+>>>>>>> cb646cabe89ca649010ae6dca6427a90f3b19376
     </task>
     <task id="LOCAL-00001" summary="push">
+<<<<<<< HEAD
+      <created>1668542851537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668542851537</updated>
+    </task>
+    <task id="LOCAL-00002" summary="push">
+      <created>1668606186247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668606186247</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+=======
       <created>1669605760431</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1669605760431</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00002" summary="push">
       <created>1669884107799</created>
       <option name="number" value="00002" />
@@ -185,6 +242,10 @@
       <updated>1669884107799</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+=======
+    <option name="localTasksCounter" value="2" />
+>>>>>>> 56c0f3d5ed3f35d8bdb3c0876ae676a6385b1946
+>>>>>>> cb646cabe89ca649010ae6dca6427a90f3b19376
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,13 +1,14 @@
 package hf.dp.templatemethod;
 
-public class Tea extends CaffeinBeverage{
+public class Tea extends CaffeineBeverage {
     @Override
     public void brew() {
-        System.out.println("");
+        System.out.println("Steeping the tea");
     }
 
     @Override
     public void addCondiments() {
-
+        System.out.println("Adding Lemon");
     }
+
 }

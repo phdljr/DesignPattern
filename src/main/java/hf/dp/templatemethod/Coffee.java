@@ -1,6 +1,6 @@
 package hf.dp.templatemethod;
 
-public class Coffee extends CaffeinBeverage{
+public class Coffee extends CaffeineBeverage {
     @Override
     public void brew() {
         System.out.println("Dripping Coffee through filter");
