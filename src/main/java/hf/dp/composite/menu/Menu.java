@@ -1,4 +1,6 @@
-package hf.dp.composite;
+package hf.dp.composite.menu;
+
+import hf.dp.composite.iterator.CompositeIterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,6 +9,7 @@ public class Menu extends MenuComponent {
     ArrayList<MenuComponent> menuComponents = new ArrayList();
     String name;
     String description;
+    Iterator<MenuComponent> iterator = null;
 
     public Menu(String name, String description) {
         this.name = name;
@@ -42,5 +45,13 @@ public class Menu extends MenuComponent {
             MenuComponent menuComponent = iterator.next();
             menuComponent.print();
         }
+    }
+
+    @Override
+    public Iterator<MenuComponent> createIterator(){
+        if(iterator == null){
+            iterator = new CompositeIterator(menuComponents.iterator());
+        }
+        return iterator;
     }
 }

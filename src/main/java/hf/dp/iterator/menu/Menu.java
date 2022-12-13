@@ -1,4 +1,4 @@
-package hf.dp.iterator;
+package hf.dp.iterator.menu;
 
 import java.util.Iterator;
 

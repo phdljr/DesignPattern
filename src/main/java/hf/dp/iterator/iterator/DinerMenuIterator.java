@@ -1,4 +1,6 @@
-package hf.dp.iterator;
+package hf.dp.iterator.iterator;
+
+import hf.dp.iterator.menu.MenuItem;
 
 import java.util.Iterator;
 import java.util.function.Consumer;
@@ -14,11 +16,6 @@ public class DinerMenuIterator implements Iterator<MenuItem> {
     @Override
     public void remove() {
         throw new UnsupportedOperationException("Can't remove menu.");
-    }
-
-    @Override
-    public void forEachRemaining(Consumer<? super MenuItem> action) {
-        Iterator.super.forEachRemaining(action);
     }
 
     @Override

@@ -1,4 +1,6 @@
-package hf.dp.composite;
+package hf.dp.composite.client;
+
+import hf.dp.composite.menu.MenuComponent;
 
 import java.util.Iterator;
 

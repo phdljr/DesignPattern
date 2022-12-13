@@ -1,4 +1,8 @@
-package hf.dp.composite;
+package hf.dp.composite.menu;
+
+import hf.dp.composite.iterator.NullIterator;
+
+import java.util.Iterator;
 
 public class MenuComponent {
     public void add(MenuComponent menuComponent) {
@@ -31,5 +35,9 @@ public class MenuComponent {
 
     public void print() {
         throw new UnsupportedOperationException();
+    }
+
+    public Iterator<MenuComponent> createIterator(){
+        return new NullIterator();
     }
 }

@@ -1,10 +1,11 @@
-package hf.dp.composite;
+package hf.dp.iterator.menu;
 
-public class MenuItem extends MenuComponent {
-    String name;
-    String description;
-    boolean vegetarian;
-    double price;
+public class MenuItem {
+
+    private String name;
+    private String description;
+    private boolean vegetarian;
+    private double price;
 
     public MenuItem(String name, String description, boolean vegetarian, double price) {
         this.name = name;
@@ -16,19 +17,16 @@ public class MenuItem extends MenuComponent {
     public String getName() {
         return name;
     }
+
     public String getDescription() {
         return description;
     }
+
     public double getPrice() {
         return price;
     }
+
     public boolean isVegetarian() {
         return vegetarian;
-    }
-    public void print() {
-        System.out.print(" " + getName());
-        if (this.isVegetarian()) System.out.println("(v)");
-        System.out.println(", " + getPrice());
-        System.out.println(" --" + getDescription());
     }
 }
