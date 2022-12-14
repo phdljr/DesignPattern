@@ -11,3 +11,8 @@
 - Facade Pattern
 - Template Method Pattern
 - Iterator Pattern
+- Composite Pattern
+- State Pattern
+- Proxy Pattern
+  - Virtual Proxy
+  - Protection Proxy
