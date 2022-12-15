@@ -1,10 +1,10 @@
-package hf.dp.proxy.virtual;
+package hf.dp.proxy.virtual.proxy;
 
 import java.net.*;
 import java.awt.*;
 import javax.swing.*;
 
-class ImageProxy implements Icon {
+public class ImageProxy implements Icon {
 	volatile ImageIcon imageIcon;
 	final URL imageURL;
 	Thread retrievalThread;

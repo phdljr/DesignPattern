@@ -1,9 +1,9 @@
-package hf.dp.proxy.virtual;
+package hf.dp.proxy.virtual.subject;
 
 import java.awt.*;
 import javax.swing.*;
 
-class ImageComponent extends JComponent {
+public class ImageComponent extends JComponent {
 	private static final long serialVersionUID = 1L;
 	private Icon icon;
 

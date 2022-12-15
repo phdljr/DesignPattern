@@ -1,4 +1,4 @@
-package hf.dp.proxy.protection;
+package hf.dp.proxy.protection.subject;
 
 public class PersonBeanImpl implements PersonBean {
 	String name;

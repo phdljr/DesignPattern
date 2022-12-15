@@ -1,11 +1,13 @@
-package hf.dp.proxy.protection;
+package hf.dp.proxy.protection.handler;
  
+import hf.dp.proxy.protection.subject.PersonBean;
+
 import java.lang.reflect.*;
  
-public class NonOwnerInvocationHandler implements InvocationHandler { 
+public class OwnerInvocationHandler implements InvocationHandler { 
 	PersonBean person;
  
-	public NonOwnerInvocationHandler(PersonBean person) {
+	public OwnerInvocationHandler(PersonBean person) {
 		this.person = person;
 	}
  
@@ -16,9 +18,9 @@ public class NonOwnerInvocationHandler implements InvocationHandler {
 			if (method.getName().startsWith("get")) {
 				return method.invoke(person, args);
    			} else if (method.getName().equals("setHotOrNotRating")) {
-				return method.invoke(person, args);
-			} else if (method.getName().startsWith("set")) {
 				throw new IllegalAccessException();
+			} else if (method.getName().startsWith("set")) {
+				return method.invoke(person, args);
 			} 
         } catch (InvocationTargetException e) {
             e.printStackTrace();

@@ -11,21 +11,21 @@ public class SoldOutState implements State {
 
     @Override
     public void insertQuarter() {
-
+        System.out.println("Oops, out of gumballs!");
     }
 
     @Override
     public void ejectQuarter() {
-
+        System.out.println("Oops, out of gumballs!");
     }
 
     @Override
     public void turnCrank() {
-
+        System.out.println("Oops, out of gumballs!");
     }
 
     @Override
     public void dispense() {
-
+        System.out.println("Oops, out of gumballs!");
     }
 }

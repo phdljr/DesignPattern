@@ -1,5 +1,11 @@
 package hf.dp.proxy.protection;
 
+import hf.dp.proxy.protection.handler.NonOwnerInvocationHandler;
+import hf.dp.proxy.protection.handler.OwnerInvocationHandler;
+import hf.dp.proxy.protection.subject.PersonBean;
+import hf.dp.proxy.protection.subject.PersonBeanImpl;
+import info.MyHWInfo;
+
 import java.lang.reflect.*;
 import java.util.*;
 
@@ -7,6 +13,7 @@ public class MatchMakingTestDrive {
 	HashMap<String, PersonBean> datingDB = new HashMap<String, PersonBean>();
  	
 	public static void main(String[] args) {
+		MyHWInfo.printInfo();
 		MatchMakingTestDrive test = new MatchMakingTestDrive();
 		test.drive();
 	}

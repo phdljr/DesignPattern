@@ -1,5 +1,9 @@
 package hf.dp.proxy.virtual;
 
+import hf.dp.proxy.virtual.proxy.ImageProxy;
+import hf.dp.proxy.virtual.subject.ImageComponent;
+import info.MyHWInfo;
+
 import javax.swing.*;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -14,6 +18,7 @@ public class ImageProxyTestDrive {
     Hashtable<String, String> cds = new Hashtable<>();
 
     public static void main(String[] args) throws Exception {
+        MyHWInfo.printInfo();
         new ImageProxyTestDrive();
     }
 
